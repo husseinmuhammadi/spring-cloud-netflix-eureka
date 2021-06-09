@@ -16,9 +16,12 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
+
+    <modules>
+        <module>spring-cloud-eureka-server</module>
+    </modules>
 </project>
